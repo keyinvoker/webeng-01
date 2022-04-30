@@ -1,0 +1,13 @@
+.ul-georgian{
+    list-style-type:georgian;
+}
+
+.ul-decimal-zero{
+    list-style-type:decimal-leading-zero;
+}
+
+main{
+    display:flex;
+    align-items: center;
+    padding:100px;
+}

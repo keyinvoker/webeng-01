@@ -1,0 +1,101 @@
+.intro{
+    background-color: orangered;
+    border-radius: 25px;
+    width:70%;
+    padding:15px;
+}
+.pfp img{
+    width:150px;
+    border-radius:50%;
+}
+.bio{
+    width:96%;
+    text-align: left;
+}
+#name-box{
+    margin: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bio-header{
+    color:whitesmoke;
+    font-size:larger;
+    text-decoration: underline;
+}
+.bio p {
+    justify-content: flex-end;
+    font-size: 22px;
+    color:whitesmoke;
+    column-count: 2;
+    column-rule-style:solid;
+    column-rule-width: 1px;
+    word-spacing: 2px;
+}
+
+.instruction {
+    vertical-align:text-top;
+    font-size:25px;
+    color:rgb(111, 27, 27);
+}
+.navbar-buttons {
+    vertical-align:text-bottom;
+}
+
+.instruction b {
+    color:red;
+    text-decoration: underline;
+}
+
+.arrow-down {
+    color: red;
+    font-size: 40px;
+}
+
+/* JS Animation (name-header) */
+#name-box{
+    border:2px orangered solid;
+    padding:12px;
+}
+.name-header{
+    color:white;
+}
+
+.name-header.animated{
+    animation: ani 0.3s ease-in-out 1;
+    color:orangered;
+}
+
+@keyframes ani {
+    0%{
+        transform: scale(1.2,0.5);
+    }
+    16%{
+        transform: scale(1.2,0.5);
+    }
+    25%{
+        transform: scale(1.2,0.5);
+    }
+    32%{
+        transform: scale(0.8,1.1);
+    }
+    48%{
+        transform: scale(0.95,1);
+    }
+    64%{
+        transform: scale(0.8,1.2);
+    }
+    80%{
+        transform: scale(1.15,1);
+    }
+    87%{
+        transform: scale(1.15,1);
+    }
+    90%{
+        transform: scale(0.8,1);
+    }
+    95%{
+        transform: scale(1.05,1);
+    }
+    100%{
+        transform: scale(1,1);
+    }
+}
